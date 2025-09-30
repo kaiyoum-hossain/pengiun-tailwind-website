@@ -12,23 +12,28 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
- <header class="bg-orange-100 p-5">
-    <section class="m-10 flex ">
+ <header class="bg-orange-50 p-5">
+    <section class="m-10 flex space-x-96  ">
         
           <img class="w-64" src="icons/logo.png" alt="">
-        <div class="flex gap-10 list-none">
+        <div class="flex gap-10 lg:list-none md:list-none ">
             <li><a href="">Home</a></li>
             <li><a href="">Product</a></li>
             <li><a href="">About us</a></li>
             <li><a href="">Contact us</a></li>
+               <div class="lg:hidden md:inline">
+            <i class="fa-solid fa-list "></i>
+            </div>
         </div>
+
+     
 
     </section>
 <!-- Banner Section -->
-    <section class="m-10 flex gap-40 ">
+    <section class="lg:m-10 lg:flex md:flex-wrap gap-40 ">
         <div class="">
-            <h1 class="font-bold text-6xl"><span class="text-orange-400">BE THE PENGUINS</span><br> OF WINTER</h1>
-            <p class="">Lorem Ipsum is simply dummy text of the printing <br>
+            <h1 class="font-bold text-6xl  "><span class="text-orange-400">BE THE PENGUINS</span><br> OF WINTER</h1>
+            <p class="">Lorem Ipsum is simply dummy text of the <br>printing 
 and typesetting industry.</p>
 <button class="bg-lime-600 text-white py-3 px-3 rounded-md mt-4"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
         </div>
@@ -42,7 +47,7 @@ and typesetting industry.</p>
     <section class="">
 
             <h1 class="font-bold text-4xl opacity-60 m-10">W0MAN JACKET</h1>
-        <div class="m-10 flex gap-32">
+        <div class="m-10 lg:flex gap-32 md:flex-wrap">
             <!-- 1 num ---------------- -->
                 <div class=" py-3 px-3 rounded-md shadow-md ">
                     <img src="images/jacket-1.png" alt="" class="w-64 bg-gray-100 py-3 px-3 rounded-md ml-5">
@@ -85,7 +90,7 @@ printing and typesetting industry.</p>
         <section class="">
 
             <h1 class="font-bold text-4xl opacity-60 m-10">MAN JACKET</h1>
-        <div class="m-10 flex gap-32 ">
+        <div class="m-10 lg:flex gap-32 md:flex-wrap">
             <!-- 4 num ---------------- -->
                 <div class=" py-3 px-3 rounded-md shadow-md">
                     <img src="images/jacket-4.png" alt="" class="w-64 bg-gray-100 py-3 px-3 rounded-md ml-5">
@@ -126,7 +131,7 @@ printing and typesetting industry.</p>
  </main>
 
  <footer>
-    <section class=" m-10 gap-8 grid grid-cols-2 ">
+    <section class=" m-10 gap-8 grid lg:grid-cols-2 md:grid-cols-1">
       <div class="">
           <div class="flex shadow-md rounded-md py-3 px-3 gap-5 ">
             <div class="">
